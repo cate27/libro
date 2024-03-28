@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Libro</title>
+
+    <!-- Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&display=swap" rel="stylesheet">
+    <!--Icon-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+    <!--Stile-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="panel">
+            <h1>Libreria app</h1>
+            <i class="fa-solid fa-book"></i>
+            <img class="logo" src="img/logo.svg" alt="Logo Pagina">
+        </header>
+
+    <!--Sezione principale-->
+    <main>
+        <!--Messaggio da mostrare se non ho attività-->
+        <p class="empty-list-message"></p>
+
+        <!--Lista attività-->
+        <ul class="todo-list">
+            
+        </ul>
+
+        <!--Pannello aggiunta attività-->
+        <div class="panel add-todo grid-x">
+            <input type="text" name="add" placeholder="Aggiungi un libro">
+            <button>
+                <img src="img/add.svg" alt="add icon" class="add-icon">
+            </button>
+
+            <button class="delete">
+                <i class="fa-solid fa-trash-can"></i>
+            </button>
+        </div>
+    </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

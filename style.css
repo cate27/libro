@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 540px;
+}
+
+body {
+    background-color: rgb(217, 210, 224);
+    padding: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+header.panel {
+    background-color: rgb(205, 180, 219);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+h1 {
+    justify-content: center;
+    justify-items: center;
+    font-family: "Aref Ruqaa Ink", serif;
+    font-weight: bold;
+    color: rgb(0, 29, 61);
+}
+
+i.fa-solid.fa-book {
+    position: relative;
+    left: -7.5rem;
+    font-size: 1.6rem;
+    top: 0.4rem;
+    color: blueviolet;
+}
+
+img.logo {
+    width: 10%;
+}
+
+/* Elementi del modulo aggiungi attività */
+
+p.empty-list-message {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-family: 'Aref Ruqaa Ink';
+}
+
+li.todo-item {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    border-radius: 2rem;
+    background-color: rgb(205, 180, 219);
+}
+
+.todo-check {
+    padding: 1rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    background-color: rgb(255, 200, 221);
+    cursor: pointer;
+}
+
+p.todo-text {
+    padding: 1rem;
+    color: darkviolet;
+    font-size: 1.5rem;
+}
+
+.panel {
+    padding: 1rem;
+    background-color: rgb(224, 195, 252);
+    border-radius: 1rem;
+}
+
+
+.add-todo {
+    display: flex;
+    gap: 0.5rem;
+}
+
+input {
+    font-size: 1.3rem;
+    padding: 0.4rem;
+    flex-grow: 1;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+button {
+    padding: 1rem;
+    cursor: pointer;
+    background-color: rgb(187, 173, 255);
+    border: none;
+    border-radius: 0.8rem;
+}
+
+i.fa-solid.fa-trash-can {
+    color: red;
+}
